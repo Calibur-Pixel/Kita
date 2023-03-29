@@ -4,6 +4,7 @@ $ease-in-out-smooth: cubic-bezier(0.75, 0, 0, 1);
 // #region 字体
 $fallback-fonts: "Microsoft YaHei", "Microsoft JhengHei", SimHei, sans-serif;
 $fonts: Roboto, "HarmonyOS Sans SC", "MiSans", "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans CN", "Source Han Sans SC", $fallback-fonts;
+$monospace-fonts: "Cascadia Code", "Cascadia Mono", "JetBrains Mono", Consolas, "SF Mono", monospace, $fonts;
 // #endregion
 
 html {
@@ -24,4 +25,68 @@ body {
   width: 100%;
   max-width: 960px;
   padding: 2em 0;
+}
+
+@keyframes float-up {
+  from {
+    transform: translateY(6em) scale(0.9);
+    filter: opacity(0);
+  }
+
+  to {
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes float-down {
+  from {
+    transform: translateY(-6em) scale(0.9);
+    filter: opacity(0);
+  }
+
+  to {
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes float-left {
+  from {
+    transform: translateX(6em);
+    filter: opacity(0);
+  }
+
+  to {
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes float-right {
+  from {
+    transform: translateX(-6em);
+    filter: opacity(0);
+  }
+
+  to {
+    transform: none;
+    filter: none;
+  }
+}
+
+.float-up {
+  animation: float-up $ease-out-smooth 600ms;
+}
+
+.float-down {
+  animation: float-down $ease-out-smooth 600ms;
+}
+
+.float-left {
+  animation: float-left $ease-out-smooth 600ms;
+}
+
+.float-right {
+  animation: float-right $ease-out-smooth 600ms;
 }

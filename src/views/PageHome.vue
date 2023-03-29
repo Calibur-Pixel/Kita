@@ -2,7 +2,7 @@
   <div class="home-container">
     <v-parallax class="first-block" :height="600"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png">
-      <div class="d-flex flex-column fill-height justify-center align-center text-white">
+      <div class="d-flex flex-column fill-height justify-center align-center text-white float-up">
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
           <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.png" />
@@ -11,8 +11,8 @@
           <h4 class="subheading">Minecraft 公益服务器</h4>
           <p>QQ群: 222611224</p>
         </div>
-        <v-btn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard">复制连接地址</v-btn>
-        <p class="text-shadow mt-1">mc.calibur.tv</p>
+        <v-btn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard(); snackbar = true">复制连接地址</v-btn>
+        <p class="text-shadow mt-1">{{ mcLink }}</p>
       </div>
     </v-parallax>
 
@@ -31,30 +31,38 @@
     <v-parallax class="third-block" :height="300"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png">
       <div class="d-flex flex-column fill-height justify-center align-center text-white">
-          <h2 class="subheading">和谐友爱还很可爱的公益插件服</h2>
+        <h2 class="subheading">和谐友爱还很可爱的公益插件服</h2>
       </div>
     </v-parallax>
-
-    <WhitePantyhoseFooter />
   </div>
+  <v-snackbar v-model="snackbar">
+    已复制「{{ mcLink }}」
+    <template v-slot:actions>
+      <v-btn color="pink" variant="text" @click="snackbar = false">
+        关闭
+      </v-btn>
+    </template>
+  </v-snackbar>
 </template>
 
 <script setup>
-import WhitePantyhoseFooter from "@/components/WhitePantyhoseFooter.vue"
 import HomeFeature from "@/components/HomeFeature.vue"
-</script>
-
-<script>
 const mcLink = "mc.calibur.tv";
-
 function updateClipboard() {
   navigator.clipboard.writeText(mcLink).then(() => {
     /* clipboard successfully set */
-    alert('复制成功~');
   }, () => {
     /* clipboard write failed */
-    alert('复制失败QWQ');
+    alert('复制失败QWQ 是不是禁止了剪贴板权限呀');
   });
+}
+</script>
+
+<script>
+export default {
+  data: () => ({
+    snackbar: false,
+  }),
 }
 </script>
 

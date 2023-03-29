@@ -1,10 +1,17 @@
 <template>
-  <div class="d-flex flex-column feature-card justify-center align-center pa-4">
+  <div class="d-flex flex-column feature-card justify-center align-center pa-4 float-down">
     <v-icon size="x-large" color="primary" :icon=icon />
     <h4 class="text-primary mt-2">{{ title }}</h4>
     <p class="mt-1"><slot></slot></p>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  icon: String,
+  title: String,
+})
+</script>
 
 <style lang="scss">
 .feature-card {
@@ -26,10 +33,3 @@
   }
 }
 </style>
-
-<script setup>
-defineProps({
-  icon: String,
-  title: String,
-})
-</script>

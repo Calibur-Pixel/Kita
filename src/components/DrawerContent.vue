@@ -1,8 +1,8 @@
 <template>
   <v-list>
     <v-list-item prepend-icon="mdi-home" title="首页" to="/" active-color="primary"></v-list-item>
-    <v-list-item prepend-icon="mdi-hand-coin" title="捐赠" to="donation" active-color="primary"></v-list-item>
     <v-list-item prepend-icon="mdi-palette" title="颜色" to="color" active-color="primary"></v-list-item>
+    <v-list-item prepend-icon="mdi-hand-coin" title="捐赠" to="donation" active-color="primary"></v-list-item>
   </v-list>
   <v-divider />
   <v-list>

@@ -7,9 +7,9 @@
       <v-app-bar-title>
         <v-img :width="125" src="@/assets/fontlogo-white.png"></v-img>
       </v-app-bar-title>
-      <template v-slot:append>
+      <!--template v-slot:append>
         <v-btn icon="mdi-theme-light-dark" @click="toggleTheme"></v-btn>
-      </template>
+      </template-->
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" :floating="true" elevation="2" class="position-fixed">
@@ -18,28 +18,21 @@
 
     <v-main>
       <slot></slot>
+      <WhitePantyhoseFooter />
     </v-main>
   </v-layout>
 </template>
 
 <script setup>
 import DrawerContent from "@/components/DrawerContent.vue";
+import WhitePantyhoseFooter from "@/components/WhitePantyhoseFooter.vue"
 </script>
 
 <script>
-import { useTheme } from 'vuetify';
 export default {
   data: () => ({
     drawer: undefined,
   }),
-  setup() {
-    const theme = useTheme()
-
-    return {
-      theme,
-      toggleTheme: () => theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
-    }
-  },
 }
 </script>
 

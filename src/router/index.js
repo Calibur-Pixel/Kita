@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: '首页',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -12,12 +12,12 @@ const routes = [
   },
   {
     path: '/color',
-    name: 'Color',
+    name: '颜色',
     component: () => import('@/views/PageColor.vue'),
   },
   {
     path: '/donation',
-    name: 'Donation',
+    name: '捐赠',
     component: () => import('@/views/PageDonation.vue'),
   },
 ]

@@ -1,11 +1,12 @@
 <template>
   <v-app>
     <DefaultLayout>
-      <router-view v-slot="{ Component }">
+      <router-view/>
+      <!--router-view v-slot="{ Component }">
         <transition name="page">
           <component :is="Component" />
         </transition>
-      </router-view>
+      </router-view-->
     </DefaultLayout>
   </v-app>
 </template>
@@ -14,7 +15,7 @@
 import DefaultLayout from "@/layouts/DefaultLayout.vue"
 </script>
 
-<style scoped lang="scss">
+<!--style scoped lang="scss">
 .page-enter-active {
   transition: all $ease-out-smooth 500ms;
 }
@@ -23,4 +24,4 @@ import DefaultLayout from "@/layouts/DefaultLayout.vue"
   opacity: 0;
   transform: translateX(10rem);
 }
-</style>
+</style-->
