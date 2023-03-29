@@ -1,0 +1,27 @@
+$ease-out-smooth: cubic-bezier(0.1, 0.9, 0.2, 1);
+$ease-in-out-smooth: cubic-bezier(0.75, 0, 0, 1);
+
+// #region 字体
+$fallback-fonts: "Microsoft YaHei", "Microsoft JhengHei", SimHei, sans-serif;
+$fonts: Roboto, "HarmonyOS Sans SC", "MiSans", "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans CN", "Source Han Sans SC", $fallback-fonts;
+// #endregion
+
+html {
+  font-family: $fonts;
+}
+
+body {
+  user-select: none;
+}
+
+.v-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 2em 0;
+}
