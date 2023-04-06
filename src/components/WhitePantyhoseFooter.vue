@@ -1,7 +1,7 @@
 <template>
   <v-footer color="primary" id="white-pantyhose-footer">
     <div class="white-pantyhose-footer-left">
-      <v-img :width="125" src="@/assets/fontlogo-white.png"></v-img>
+      <v-img :width="125" src="@/assets/fontlogo-white.webp"></v-img>
       <p class="white-pantyhose-footer-year">© 2019 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
         <v-btn variant="plain" size="small" href="https://github.com/Calibur-Pixel/">我们的开源项目</v-btn>

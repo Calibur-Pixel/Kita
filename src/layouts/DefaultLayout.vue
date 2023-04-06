@@ -5,7 +5,7 @@
         <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       </template>
       <v-app-bar-title>
-        <v-img :width="125" src="@/assets/fontlogo-white.png"></v-img>
+        <v-img :width="125" src="@/assets/fontlogo-white.webp"></v-img>
       </v-app-bar-title>
       <!--template v-slot:append>
         <v-btn icon="mdi-theme-light-dark" @click="toggleTheme"></v-btn>
