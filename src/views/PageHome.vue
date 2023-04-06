@@ -1,11 +1,11 @@
 <template>
   <div class="home-container">
     <v-parallax class="first-block" :height="600"
-      src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png">
+      src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white float-up">
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
-          <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.png" />
+          <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" />
         </div>
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
           <h4 class="subheading">Minecraft 公益服务器</h4>
@@ -29,7 +29,7 @@
     </div>
 
     <v-parallax class="third-block" :height="300"
-      src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png">
+      src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white">
         <h2 class="subheading">和谐友爱还很可爱的公益插件服</h2>
       </div>
