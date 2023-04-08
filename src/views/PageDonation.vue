@@ -4,7 +4,7 @@
       <div class="page-section-donation">
         <h1 class="text-primary float-in-right">捐赠</h1>
         <p class="subheading my-4 float-in-right">
-          <b>建议私聊服主获取付款码</b>，或者可以直接使用<a target="_blank" href="https://afdian.net/a/aira_sakura"
+          <b>建议私聊服主获取支付二维码</b>，或者可以直接使用<a target="_blank" href="https://afdian.net/a/aira_sakura"
             class="a-primary">爱发电</a>进行捐赠哟（记得附上你的ID）~
         </p>
       </div>
