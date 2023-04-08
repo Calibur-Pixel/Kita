@@ -210,7 +210,7 @@ export default {
           "amount": 25
         },
         {
-          "name": "shenbi_spiderman",
+          "name": "Yuli_Whitegray",
           "amount": 23.33
         },
         {
@@ -234,7 +234,7 @@ export default {
           "amount": 12.34
         },
         {
-          "name": "Sophine·Chocovanilazuki",
+          "name": "Chocovanilazuki",
           "amount": 12.04
         },
         {
