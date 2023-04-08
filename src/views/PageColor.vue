@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div class="page-container page-container-color">
+    <div class="page-container">
       <div class="page-section-color">
         <h1 class="text-primary float-in-right">通用颜色代码</h1>
         <p class="my-4 float-in-right">Calibur Pixel 支持 Minecraft 插件服通用颜色代码，下列颜色在新版旧版中各处皆可用~</p>
@@ -69,12 +69,6 @@ h1,
 p,
 th {
   user-select: text;
-}
-
-.page-container-color {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
 }
 
 .page-section-color {

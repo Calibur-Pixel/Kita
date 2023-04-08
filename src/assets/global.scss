@@ -26,6 +26,9 @@ body {
 }
 
 .page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
   width: 100%;
   max-width: 960px;
   padding: 2em 0;
