@@ -15,6 +15,10 @@ body {
   user-select: none;
 }
 
+::selection {
+  background-color: rgba(240, 110, 142, 0.3)
+}
+
 .v-container {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@ body {
   padding: 2em 0;
 }
 
-@keyframes float-up {
+@keyframes float-in-up {
   from {
     transform: translateY(6em) scale(0.9);
     filter: opacity(0);
@@ -39,7 +43,7 @@ body {
   }
 }
 
-@keyframes float-down {
+@keyframes float-in-down {
   from {
     transform: translateY(-6em) scale(0.9);
     filter: opacity(0);
@@ -51,7 +55,7 @@ body {
   }
 }
 
-@keyframes float-left {
+@keyframes float-in-left {
   from {
     transform: translateX(6em);
     filter: opacity(0);
@@ -63,7 +67,7 @@ body {
   }
 }
 
-@keyframes float-right {
+@keyframes float-in-right {
   from {
     transform: translateX(-6em);
     filter: opacity(0);
@@ -75,18 +79,18 @@ body {
   }
 }
 
-.float-up {
-  animation: float-up $ease-out-smooth 600ms;
+.float-in-up {
+  animation: float-in-up $ease-out-smooth 600ms;
 }
 
-.float-down {
-  animation: float-down $ease-out-smooth 600ms;
+.float-in-down {
+  animation: float-in-down $ease-out-smooth 600ms;
 }
 
-.float-left {
-  animation: float-left $ease-out-smooth 600ms;
+.float-in-left {
+  animation: float-in-left $ease-out-smooth 600ms;
 }
 
-.float-right {
-  animation: float-right $ease-out-smooth 600ms;
+.float-in-right {
+  animation: float-in-right $ease-out-smooth 600ms;
 }

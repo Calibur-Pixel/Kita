@@ -2,7 +2,7 @@
   <div class="home-container">
     <v-parallax class="first-block" :height="600"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
-      <div class="d-flex flex-column fill-height justify-center align-center text-white float-up">
+      <div class="d-flex flex-column fill-height justify-center align-center text-white float-in-up">
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
           <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" />

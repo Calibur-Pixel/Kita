@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column feature-card justify-center align-center pa-4 float-down">
+  <div class="d-flex flex-column feature-card justify-center align-center pa-4 float-in-in-in-in-down">
     <v-icon size="x-large" color="primary" :icon=icon />
     <h4 class="text-primary mt-2">{{ title }}</h4>
     <p class="mt-1"><slot></slot></p>

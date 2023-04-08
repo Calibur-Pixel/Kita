@@ -2,9 +2,9 @@
   <v-container>
     <div class="page-container page-container-color">
       <div class="page-section-color">
-        <h1 class="text-primary float-right">通用颜色代码</h1>
-        <p class="my-4 float-right">Calibur Pixel 支持 Minecraft 插件服通用颜色代码，下列颜色在新版旧版中各处皆可用~</p>
-        <v-row class="mb-4 float-left">
+        <h1 class="text-primary float-in-right">通用颜色代码</h1>
+        <p class="my-4 float-in-right">Calibur Pixel 支持 Minecraft 插件服通用颜色代码，下列颜色在新版旧版中各处皆可用~</p>
+        <v-row class="mb-4 float-in-left">
           <ColorBlock colorBg="#be0000" colorText="white" colorValue="&4">&4</ColorBlock>
           <ColorBlock colorBg="#fe3f3f" colorText="white" colorValue="&c">&c</ColorBlock>
           <ColorBlock colorBg="#D9A334" colorText="white" colorValue="&6">&6</ColorBlock>
@@ -24,9 +24,9 @@
         </v-row>
       </div>
       <div class="page-section-color">
-        <h1 class="text-primary float-right">通用字体格式代码</h1>
-        <p class="my-4 float-right">Calibur Pixel 支持 Minecraft 插件服通用字体格式代码，下列格式在新版旧版中各处皆可用~</p>
-        <v-row class="mb-4 float-left">
+        <h1 class="text-primary float-in-right">通用字体格式代码</h1>
+        <p class="my-4 float-in-right">Calibur Pixel 支持 Minecraft 插件服通用字体格式代码，下列格式在新版旧版中各处皆可用~</p>
+        <v-row class="mb-4 float-in-left">
           <ColorBlock colorValue="&l">&l - <b>粗体</b></ColorBlock>
           <ColorBlock colorValue="&o">&o - <i>斜体</i></ColorBlock>
           <ColorBlock colorValue="&n">&n - <u>下划线</u></ColorBlock>
@@ -36,9 +36,9 @@
         </v-row>
       </div>
       <div class="page-section-color">
-        <h1 class="text-primary float-right">标准十六进制颜色代码格式</h1>
-        <p class="my-4 float-right">十六进制颜色代码在 Calibur Pixel 中，可以用于聊天、物品命名、木牌修改等。以下列出为常用颜色代码，当然也可以使用自己的十六进制颜色~</p>
-        <v-row class="mb-4 float-left">
+        <h1 class="text-primary float-in-right">标准十六进制颜色代码格式</h1>
+        <p class="my-4 float-in-right">十六进制颜色代码在 Calibur Pixel 中，可以用于聊天、物品命名、木牌修改等。以下列出为常用颜色代码，当然也可以使用自己的十六进制颜色~</p>
+        <v-row class="mb-4 float-in-left">
           <ColorBlock colorBg="#fb7299" colorText="white" colorValue="&amp;#fb7299">&amp;#fb7299</ColorBlock>
           <ColorBlock colorBg="#1ebafc" colorText="white" colorValue="&amp;#1ebafc">&amp;#1ebafc</ColorBlock>
           <ColorBlock colorBg="#ff95a7" colorText="black" colorValue="&amp;#ff95a7">&amp;#ff95a7</ColorBlock>
@@ -46,9 +46,9 @@
         </v-row>
       </div>
       <div class="page-section-color">
-        <h1 class="text-primary float-right">后缀 (头衔) 十六进制颜色代码格式</h1>
-        <p class="my-4 float-right">为后缀插件专用的十六进制颜色代码格式。不过当然，后缀也能用最上面的通用颜色代码。以下列出为常用颜色代码，当然也可以使用自己的十六进制颜色~</p>
-        <v-row class="mb-4 float-left">
+        <h1 class="text-primary float-in-right">后缀 (头衔) 十六进制颜色代码格式</h1>
+        <p class="my-4 float-in-right">为后缀插件专用的十六进制颜色代码格式。不过当然，后缀也能用最上面的通用颜色代码。以下列出为常用颜色代码，当然也可以使用自己的十六进制颜色~</p>
+        <v-row class="mb-4 float-in-left">
           <ColorBlock colorBg="#fb7299" colorText="white" colorValue="&amp;(#fb7299)">&amp;(#fb7299)</ColorBlock>
           <ColorBlock colorBg="#1ebafc" colorText="white" colorValue="&amp;(#1ebafc)">&amp;(#1ebafc)</ColorBlock>
           <ColorBlock colorBg="#ff95a7" colorText="black" colorValue="&amp;(#ff95a7)">&amp;(#ff95a7)</ColorBlock>
