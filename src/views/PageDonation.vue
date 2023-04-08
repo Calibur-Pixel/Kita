@@ -297,7 +297,8 @@ export default {
 <style lang="scss">
 h1,
 p,
-th {
+th,
+tr {
   user-select: text;
 }
 
