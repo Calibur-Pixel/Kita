@@ -19,6 +19,15 @@ body {
   background-color: rgba(240, 110, 142, 0.3)
 }
 
+.a-primary {
+  color: rgb(var(--v-theme-primary));
+  transition: 200ms;
+
+  &:hover {
+    color: rgba(var(--v-theme-primary), 0.5);
+  }
+}
+
 .v-container {
   display: flex;
   flex-direction: column;

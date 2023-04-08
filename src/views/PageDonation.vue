@@ -3,10 +3,10 @@
     <div class="page-container">
       <div class="page-section-donation">
         <h1 class="text-primary float-in-right">捐赠</h1>
-        <p class="subheading my-4 float-in-right">可以直接使用爱发电进行捐赠哟~</p>
-        <v-btn color="primary" target="_blank" href="https://afdian.net/a/aira_sakura" class="fit-content float-in-left">
-          爱发电
-        </v-btn>
+        <p class="subheading my-4 float-in-right">
+          <b>建议私聊服主获取付款码</b>，或者可以直接使用<a target="_blank" href="https://afdian.net/a/aira_sakura"
+            class="a-primary">爱发电</a>进行捐赠哟（记得附上你的ID）~
+        </p>
       </div>
       <div class="page-section-donation">
         <h1 class="text-primary float-in-right">捐赠列表</h1>
@@ -50,12 +50,12 @@ export default {
           "amount": 400
         },
         {
-          "name": "Lingfeng_Endless",
-          "amount": 342.93
+          "name": "ShadsT_",
+          "amount": 400
         },
         {
-          "name": "ShadsT_",
-          "amount": 340
+          "name": "Lingfeng_Endless",
+          "amount": 342.93
         },
         {
           "name": "Margele",
