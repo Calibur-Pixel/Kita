@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="page-section-donation">
-        <h1 class="text-primary float-in-right">捐赠列表</h1>
+        <h2 class="text-primary float-in-right">捐赠列表</h2>
         <p class="subheading my-4 float-in-right">以下为捐赠了 Calibur Pixel 的玩家，非常感谢！ (*￣3￣)╭</p>
         <div class="rounded mt-2 elevation-2 float-in-left">
           <v-table>

@@ -6,6 +6,7 @@
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
           <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" />
+          <h1 style="display: none">Calibur Pixel</h1>
         </div>
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
           <h4 class="subheading">Minecraft 公益服务器</h4>
@@ -37,7 +38,7 @@
     </v-parallax>
   </div>
   <v-snackbar v-model="snackbar">
-    已复制「{{ mcLink }}」
+    已复制 {{ mcLink }}
     <template v-slot:actions>
       <v-btn color="pink" variant="text" @click="snackbar = false">
         关闭

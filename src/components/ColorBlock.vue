@@ -8,7 +8,7 @@
     </v-hover>
   </v-col>
   <v-snackbar v-model="snackbar">
-    已复制「{{ colorValue }}」
+    已复制 {{ colorValue }}
     <template v-slot:actions>
       <v-btn color="pink" variant="text" @click="snackbar = false">
         关闭
