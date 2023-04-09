@@ -4,17 +4,17 @@
       <v-img :width="125" src="@/assets/fontlogo-white.webp"></v-img>
       <p class="white-pantyhose-footer-year">© 2019 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
-        <v-btn variant="plain" size="small" href="https://github.com/Calibur-Pixel/">我们的开源项目</v-btn>
-        <v-btn variant="plain" size="small" href="https://space.bilibili.com/22807093/">服主艾拉的B站</v-btn>
-        <v-btn variant="plain" size="small" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://space.bilibili.com/22807093/">服主艾拉的B站</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</v-btn>
       </div>
     </div>
     <div class="white-pantyhose-footer-right">
       <h3>友情链接</h3>
       <div class="white-pantyhose-footer-right-links">
-        <v-btn variant="plain" size="small" href="https://heryin.net/">和瑛</v-btn>
-        <v-btn variant="plain" size="small" href="https://as.qwq.team/">Artstyle</v-btn>
-        <v-btn variant="plain" size="small" href="https://www.yingluo.world/">璎珞</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://heryin.net/">和瑛</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://as.qwq.team/">Artstyle</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://www.yingluo.world/">璎珞</v-btn>
       </div>
     </div>
   </v-footer>
