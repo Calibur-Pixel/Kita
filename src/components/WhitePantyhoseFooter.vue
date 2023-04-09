@@ -26,39 +26,53 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 5vw;
+}
 
-  .white-pantyhose-footer-left {
-    display: flex;
+.white-pantyhose-footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.white-pantyhose-footer-year {
+  font-size: 14px;
+}
+
+.white-pantyhose-footer-left-links {
+  margin-left: -12px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.white-pantyhose-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 13px;
+}
+
+.white-pantyhose-footer-right-links {
+  margin-right: -12px;
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  #white-pantyhose-footer {
+    align-items: flex-end;
+  }
+
+  .white-pantyhose-footer-left-links {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-
-    .white-pantyhose-footer-year {
-      font-size: 14px;
-    }
-
-    .white-pantyhose-footer-left-links {
-      margin-left: -12px;
-      margin-top: 20px;
-      margin-bottom: -10px;
-      display: flex;
-      align-items: flex-start;
-    }
   }
 
   .white-pantyhose-footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 13px;
-  }
-
-  .white-pantyhose-footer-right-links {
-    margin-right: -12px;
-    margin-bottom: -10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    gap: 34px;
   }
 }
 </style>
