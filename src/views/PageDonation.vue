@@ -146,6 +146,10 @@ export default {
           "amount": 60
         },
         {
+          "name": "RedClock_1949",
+          "amount": 51
+        },
+        {
           "name": "Charles_Fb",
           "amount": 50.9
         },
@@ -176,10 +180,6 @@ export default {
         {
           "name": "HG_SB",
           "amount": 50
-        },
-        {
-          "name": "nao_zhong_jiang",
-          "amount": 46
         },
         {
           "name": "Oldpig_DD",
