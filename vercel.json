@@ -4,5 +4,8 @@
 			"source": "/:path*",
 			"destination": "/index.html"
 		}
-	]
+	],
+	"github": {
+		"silent": true
+	}
 }
