@@ -46,11 +46,11 @@ export default {
           "amount": 566
         },
         {
-          "name": "匿名用户1",
+          "name": "ShadsT_",
           "amount": 400
         },
         {
-          "name": "ShadsT_",
+          "name": "匿名用户1",
           "amount": 400
         },
         {
@@ -62,11 +62,11 @@ export default {
           "amount": 300
         },
         {
-          "name": "LiaoJC",
+          "name": "ITIING",
           "amount": 200
         },
         {
-          "name": "ITIING",
+          "name": "LiaoJC",
           "amount": 200
         },
         {
@@ -130,7 +130,7 @@ export default {
           "amount": 67
         },
         {
-          "name": "SalmonNOC",
+          "name": "C8H18",
           "amount": 60
         },
         {
@@ -138,7 +138,7 @@ export default {
           "amount": 60
         },
         {
-          "name": "C8H18",
+          "name": "SalmonNOC",
           "amount": 60
         },
         {
@@ -154,6 +154,18 @@ export default {
           "amount": 50.9
         },
         {
+          "name": "AlpacaSir",
+          "amount": 50
+        },
+        {
+          "name": "HG_SB",
+          "amount": 50
+        },
+        {
+          "name": "ItsZTChun",
+          "amount": 50
+        },
+        {
           "name": "NightSkY_TD",
           "amount": 50
         },
@@ -166,19 +178,7 @@ export default {
           "amount": 50
         },
         {
-          "name": "AlpacaSir",
-          "amount": 50
-        },
-        {
           "name": "yangxq",
-          "amount": 50
-        },
-        {
-          "name": "ItsZTChun",
-          "amount": 50
-        },
-        {
-          "name": "HG_SB",
           "amount": 50
         },
         {
@@ -190,11 +190,11 @@ export default {
           "amount": 40
         },
         {
-          "name": "tfc1306",
+          "name": "AmySmith797",
           "amount": 30
         },
         {
-          "name": "AmySmith797",
+          "name": "tfc1306",
           "amount": 30
         },
         {
@@ -214,11 +214,11 @@ export default {
           "amount": 23.33
         },
         {
-          "name": "bzd4576",
+          "name": "BadBlackerBai",
           "amount": 20
         },
         {
-          "name": "BadBlackerBai",
+          "name": "bzd4576",
           "amount": 20
         },
         {
@@ -238,6 +238,14 @@ export default {
           "amount": 12.04
         },
         {
+          "name": "asdv342",
+          "amount": 10
+        },
+        {
+          "name": "Binguo55",
+          "amount": 10
+        },
+        {
           "name": "LBzzZ",
           "amount": 10
         },
@@ -246,15 +254,11 @@ export default {
           "amount": 10
         },
         {
-          "name": "ZhenYeAcacia",
-          "amount": 10
-        },
-        {
-          "name": "asdv342",
-          "amount": 10
-        },
-        {
           "name": "Sans3151",
+          "amount": 10
+        },
+        {
+          "name": "ZhenYeAcacia",
           "amount": 10
         },
         {
