@@ -62,6 +62,10 @@ export default {
           "amount": 300
         },
         {
+          "name": "Munuo_scen",
+          "amount": 210
+        },
+        {
           "name": "ITIING",
           "amount": 200
         },
@@ -72,10 +76,6 @@ export default {
         {
           "name": "ZEALOT9527",
           "amount": 180
-        },
-        {
-          "name": "Munuo_scen",
-          "amount": 160
         },
         {
           "name": "can_tian",
