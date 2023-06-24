@@ -11,7 +11,7 @@
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
           <h4 class="subheading">Minecraft 公益服务器</h4>
           <p>QQ群: 222611224</p>
-          <p>版本: 1.19.4</p>
+          <p>版本: 1.20.1</p>
         </div>
         <v-btn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard(); snackbar = true">复制连接地址</v-btn>
         <p class="text-shadow mt-1">{{ mcLink }}</p>
