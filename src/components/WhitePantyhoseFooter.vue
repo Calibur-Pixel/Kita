@@ -13,7 +13,7 @@
       <h3>友情链接</h3>
       <div class="white-pantyhose-footer-right-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://heryin.net/">和瑛</v-btn>
-        <v-btn variant="plain" size="small" target="_blank" href="https://as.qwq.team/">Artstyle</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://www.artformgames.com/">艺式</v-btn>
         <v-btn variant="plain" size="small" target="_blank" href="https://www.yingluo.world/">璎珞</v-btn>
       </div>
     </div>
