@@ -5,7 +5,7 @@
       <p class="white-pantyhose-footer-year">© 2019 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</v-btn>
-        <v-btn variant="plain" size="small" target="_blank" href="https://space.bilibili.com/22807093/">服主艾拉的B站</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://aira.cafe">服主艾拉</v-btn>
         <v-btn variant="plain" size="small" target="_blank" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</v-btn>
       </div>
     </div>
