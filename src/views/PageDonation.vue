@@ -47,7 +47,7 @@ export default {
         },
         {
           "name": "ShadsT_",
-          "amount": 400
+          "amount": 500
         },
         {
           "name": "匿名用户1",
