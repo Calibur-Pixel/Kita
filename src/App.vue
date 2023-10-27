@@ -1,5 +1,6 @@
 <template>
   <v-app>
+  <div id="follow"></div>
     <DefaultLayout>
       <router-view/>
       <!--router-view v-slot="{ Component }">
@@ -13,6 +14,23 @@
 
 <script setup>
 import DefaultLayout from "@/layouts/DefaultLayout.vue"
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var followDiv = document.getElementById('follow');
+
+  if(followDiv){
+    document.addEventListener('mousemove',function(event){
+      var mouseX = event.pageX;
+      var mouseY = event.pageY;
+
+      followDiv.style.left = mouseX - '50' + 'px';
+      followDiv.style.top = mouseY - '50' + 'px';
+
+    })
+  }
+
+});
 </script>
 
 <!--style scoped lang="scss">
@@ -25,3 +43,16 @@ import DefaultLayout from "@/layouts/DefaultLayout.vue"
   transform: translateX(10rem);
 }
 </style-->
+
+<style>
+  
+#follow {
+  width: 100px;
+  height: 100px;
+  background-color: #fb7299;
+  position: absolute;
+  border-radius: 100px;
+  filter: blur(50px);
+  /* z-index: -100; */
+}
+</style>
