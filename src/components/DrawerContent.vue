@@ -7,9 +7,9 @@
   <v-divider />
   <v-list>
     <v-list-subheader>论坛</v-list-subheader>
-    <v-list-item prepend-icon="mdi-forum" title="论坛" href="https://sakuranomiya.moe/t/calibur-pixel"></v-list-item>
-    <v-list-item prepend-icon="mdi-format-list-numbered" title="管理条例" href="https://sakuranomiya.moe/d/57"></v-list-item>
-    <v-list-item prepend-icon="mdi-directions" title="游玩指南" href="https://sakuranomiya.moe/d/65"></v-list-item>
+    <v-list-item prepend-icon="mdi-forum" title="论坛" href="https://bbs.aira.cafe/t/calibur-pixel"></v-list-item>
+    <v-list-item prepend-icon="mdi-format-list-numbered" title="管理条例" href="https://bbs.aira.cafe/d/57"></v-list-item>
+    <v-list-item prepend-icon="mdi-directions" title="游玩指南" href="https://bbs.aira.cafe/d/65"></v-list-item>
   </v-list>
   <v-divider />
   <v-list>
