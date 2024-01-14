@@ -182,6 +182,10 @@ export default {
           "amount": 50
         },
         {
+          "name": "Kyushu_Tong",
+          "amount": 50
+        },
+        {
           "name": "Oldpig_DD",
           "amount": 45
         },
