@@ -22,14 +22,14 @@ const drawer = ref();
     </VList>
     <VDivider />
     <VList>
-      <VList-subheader>论坛</VList-subheader>
+      <VListSubheader>论坛</VListSubheader>
       <VListItem prepend-icon="mdi-forum" title="论坛" href="https://bbs.aira.cafe/t/calibur-pixel"></VListItem>
       <VListItem prepend-icon="mdi-format-list-numbered" title="管理条例" href="https://bbs.aira.cafe/d/57"></VListItem>
       <VListItem prepend-icon="mdi-directions" title="游玩指南" href="https://bbs.aira.cafe/d/65"></VListItem>
     </VList>
     <VDivider />
     <VList>
-      <VList-subheader>封禁</VList-subheader>
+      <VListSubheader>封禁</VListSubheader>
       <VListItem prepend-icon="mdi-cancel" title="旧版封禁列表"
         href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0">
       </VListItem>
