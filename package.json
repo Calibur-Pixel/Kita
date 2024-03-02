@@ -17,9 +17,14 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/stylelint-module": "^5.2.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",
     "sass": "^1.71.1",
+    "stylelint": "^16.2.1",
+    "stylelint-config-clean-order": "^5.4.1",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
     "vuetify-nuxt-module": "^0.12.0"
   }
 }

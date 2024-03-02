@@ -4,9 +4,10 @@ export default defineNuxtConfig({
     enabled: false
   },
   modules: [
+    '@nuxt/image',
+    '@nuxtjs/stylelint-module',
     '@vueuse/nuxt',
     'vuetify-nuxt-module',
-    '@nuxt/image',
   ],
   vuetify: {
     moduleOptions: {
@@ -21,5 +22,9 @@ export default defineNuxtConfig({
       }
     },
     vuetifyOptions: './vuetify.config.ts'
+  },
+  stylelint: {
+    lintOnStart: false,
+    chokidar: true
   }
 })

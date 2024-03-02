@@ -5,8 +5,7 @@
       <p class="year">© 2018 - {{ new Date().getFullYear() }}</p>
       <div class="links">
         <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</VBtn>
-        <VBtn variant="plain" size="small" target="_blank"
-          href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</VBtn>
+        <VBtn variant="plain" size="small" target="_blank" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</VBtn>
       </div>
     </div>
     <div class="right">
@@ -23,8 +22,8 @@
 <style scoped lang="scss">
 #white-pantyhose-footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 32px 5vw;
 }
 
@@ -35,34 +34,36 @@
 .left {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
-  
+  align-items: flex-start;
+
   .links {
-    margin-left: -12px;
-    margin-top: 20px;
-    margin-bottom: -10px;
     display: flex;
     align-items: flex-start;
+
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-left: -12px;
   }
 }
 
 .right {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   gap: 13px;
-  
+  align-items: flex-end;
+
   .links {
-    margin-right: -12px;
-    margin-bottom: -10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    margin-right: -12px;
+    margin-bottom: -10px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (width <= 600px) {
   #white-pantyhose-footer {
     align-items: flex-end;
   }

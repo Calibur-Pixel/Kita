@@ -7,4 +7,5 @@
     "source.fixAll": "explicit",
     "source.sortImports": "explicit"
   },
+  "stylelint.validate": [ "css", "scss", "vue" ]
 }
