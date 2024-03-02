@@ -39,6 +39,6 @@ const drawer = ref();
 
   <VMain>
     <slot></slot>
-    <WhitePantyhoseFooter />
+    <Footer />
   </VMain>
 </template>
