@@ -1,0 +1,10 @@
+{
+  "editor.fontLigatures": "'ss03', 'ss20'",
+  "editor.formatOnPaste": true,
+  // "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+}
