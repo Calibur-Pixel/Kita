@@ -3,7 +3,7 @@ const drawer = ref();
 </script>
 
 <template>
-  <VAppBar height="56" color="primary" class="position-fixed">
+  <VAppBar height="56" color="primary">
     <template v-slot:prepend>
       <VAppBarNavIcon variant="text" @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
@@ -12,7 +12,7 @@ const drawer = ref();
     </VAppBarTitle>
   </VAppBar>
 
-  <VNavigationDrawer v-model="drawer" :floating="true" elevation="2" class="position-fixed">
+  <VNavigationDrawer v-model="drawer">
     <VList>
       <VListItem prepend-icon="mdi-home" title="首页" to="/" color="primary"></VListItem>
       <VListItem prepend-icon="mdi-palette" title="颜色" to="color" color="primary"></VListItem>
@@ -42,6 +42,10 @@ const drawer = ref();
 </template>
 
 <style scoped lang="scss">
+.v-app-bar {
+  width: 100% !important;
+}
+
 .v-app-bar-title {
   height: 100%;
 
