@@ -1,16 +1,14 @@
-<script setup>
-import { VAppBarNavIcon } from 'vuetify/components';
-
+<script setup lang="ts">
 const drawer = ref();
 </script>
 
 <template>
-  <VAppBar color="primary" class="position-fixed">
+  <VAppBar height="56" color="primary" class="position-fixed">
     <template v-slot:prepend>
       <VAppBarNavIcon variant="text" @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
     <VAppBarTitle>
-      <NuxtImg :width="125" src="images/fontlogo-white.webp"></NuxtImg>
+      <NuxtImg :width="125" src="fontlogo-white.webp"></NuxtImg>
     </VAppBarTitle>
   </VAppBar>
 
@@ -42,3 +40,19 @@ const drawer = ref();
     <Footer />
   </VMain>
 </template>
+
+<style scoped lang="scss">
+.v-app-bar-title {
+  height: 100%;
+
+  &:deep(.v-toolbar-title__placeholder) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  img {
+    transform: translateY(-1px);
+  }
+}
+</style>

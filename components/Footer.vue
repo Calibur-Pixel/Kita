@@ -1,7 +1,7 @@
 <template>
   <VFooter color="primary" id="white-pantyhose-footer">
     <div class="left">
-      <NuxtImg :width="125" src="images/fontlogo-white.webp"></NuxtImg>
+      <NuxtImg :width="125" src="fontlogo-white.webp"></NuxtImg>
       <p class="year">© 2018 - {{ new Date().getFullYear() }}</p>
       <div class="links">
         <VBtn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</VBtn>
