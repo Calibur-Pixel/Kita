@@ -5,7 +5,7 @@ const drawer = ref();
 <template>
   <VAppBar height="56" color="primary">
     <template v-slot:prepend>
-      <VAppBarNavIcon variant="text" @click.stop="drawer = !drawer"></VAppBarNavIcon>
+      <VAppBarNavIcon @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
     <VAppBarTitle>
       <NuxtImg :width="125" src="fontlogo-white.webp"></NuxtImg>
@@ -42,9 +42,38 @@ const drawer = ref();
 </template>
 
 <style scoped lang="scss">
+// #region Fix SSR
+
 .v-app-bar {
-  width: 100% !important;
+  width: 100%;
+  height: 56px;
+
+  &:deep(.v-toolbar__content, .v-toolbar__extension) {
+    position: relative;
+
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+
+    width: 100%;
+
+    transition: inherit;
+  }
+
+  &:deep(.v-toolbar__prepend) {
+    margin-inline: 10px auto;
+  }
+
+  &:deep(.v-toolbar-title) {
+    flex: 1 1;
+  }
+
+  &:deep(.v-toolbar__content>.v-toolbar-title) {
+    margin-inline-start: 16px;
+  }
 }
+
+// #endregion
 
 .v-app-bar-title {
   height: 100%;
