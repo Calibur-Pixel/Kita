@@ -106,7 +106,8 @@ function updateClipboard() {
     filter: blur(32px);
   }
 
-  h2 {
+  h2,
+  p {
     user-select: text;
   }
 }
