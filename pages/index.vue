@@ -17,11 +17,11 @@ function updateClipboard() {
     <VParallax class="first-block"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
       <div class="d-flex ga-4 fill-height flex-column justify-center align-center text-white float-in-up">
-        <div class="d-flex ga-4 justify-center align-center">
-          <NuxtImg width="200" class="logo logo-shadow" src="logo.svg" />
-          <NuxtImg width="100%" class="logo-shadow" src="fontlogo-white.webp" />
+        <div class="logo-container px-8 d-flex flex-column flex-md-row ga-4 justify-center align-center">
+          <NuxtImg class="logo logo-shadow" src="logo.svg" />
+          <NuxtImg class="logo-shadow" src="fontlogo-white.webp" />
           <!-- 这里留一个display: none的h1是为了页面上有h1作为标题，用于SEO优化 -->
-          <h1 style="display: none">Calibur Pixel</h1>
+          <h1 class="d-none">Calibur Pixel</h1>
         </div>
         <h4 class="text-h5 subheading text-shadow">Minecraft 公益服务器</h4>
       </div>
@@ -29,7 +29,7 @@ function updateClipboard() {
 
     <div class="second-block d-flex flex-shrink-0 flex-column flex-wrap justify-center align-center pa-8">
       <div class="line d-flex flex-shrink-0 flex-wrap justify-center align-center">
-        <HomeFeature icon="mdi-memory" title="性能">9900K级的高性能Xeon服务器CPU<br>由Paper服务端驱动</HomeFeature>
+        <HomeFeature icon="mdi-memory" title="性能">高性能的独立服务器<br>由Paper服务端驱动</HomeFeature>
         <HomeFeature icon="mdi-pinwheel" title="可爱">倡导萌与可爱<br>Kawaii的MC社区</HomeFeature>
         <HomeFeature icon="mdi-cog" title="热忱">由热爱驱动<br>勤奋的更新与修复</HomeFeature>
       </div>
@@ -38,11 +38,11 @@ function updateClipboard() {
       </div>
     </div>
 
-    <VParallax class="third-block" :height="300"
+    <VParallax class="third-block" :height="320"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
-      <div class="pa-8 d-flex fill-height justify-space-between text-white">
+      <div class="pa-8 d-flex fill-height justify-space-between text-white flex-column flex-sm-row">
         <div class="d-flex ga-2 flex-column justify-space-between">
-          <h4 class="text-h4">加入服务器</h4>
+          <h4 class="text-h4 mb-4">加入服务器</h4>
           <div class="d-flex ga-4 flex-column">
             <p class="d-flex ga-1 align-center">
               <VIcon icon="mdi-qqchat" /><b class="mr-2">QQ群</b>222611224
@@ -55,7 +55,7 @@ function updateClipboard() {
             </p>
           </div>
         </div>
-        <div class="d-flex flex-column align-end">
+        <div class="d-flex flex-column align-start align-sm-end">
           <VBtn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard(); snackbar = true">复制连接地址
           </VBtn>
           <p class="text-shadow mt-1">{{ mcLink }}</p>
@@ -84,6 +84,18 @@ function updateClipboard() {
   p,
   h4 {
     user-select: text;
+  }
+
+  .logo-container {
+    max-width: 100%;
+
+    img:nth-child(1) {
+      max-width: 200px;
+    }
+
+    img:nth-child(2) {
+      width: 100%;
+    }
   }
 }
 
