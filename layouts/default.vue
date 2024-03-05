@@ -8,7 +8,7 @@ const drawer = ref();
       <VAppBarNavIcon @click.stop="drawer = !drawer"></VAppBarNavIcon>
     </template>
     <VAppBarTitle>
-      <NuxtImg :width="125" src="fontlogo-white.webp"></NuxtImg>
+      <NuxtImg preload :width="125" src="fontlogo-white.webp"></NuxtImg>
     </VAppBarTitle>
   </VAppBar>
 
