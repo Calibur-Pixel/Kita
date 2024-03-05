@@ -32,7 +32,7 @@ function updateClipboard() {
       <div class="d-flex ga-4 fill-height flex-column justify-center align-center text-white float-in-up">
         <div class="logo-container px-8 d-flex flex-column flex-md-row ga-4 justify-center align-center">
           <Logo class="logo logo-shadow" width="200px" />
-          <NuxtImg class="logo-shadow" src="fontlogo-white.webp" />
+          <NuxtImg preload class="logo-shadow" src="fontlogo-white.webp" />
           <!-- 这里留一个display: none的h1是为了页面上有h1作为标题，用于SEO优化 -->
           <h1 class="d-none">Calibur Pixel</h1>
         </div>
