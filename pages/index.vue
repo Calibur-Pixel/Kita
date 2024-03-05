@@ -1,4 +1,17 @@
 <script setup lang="ts">
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      fetchpriority: 'high',
+      as: 'image',
+      href: "https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp",
+      type: 'image/webp',
+      crossorigin: 'anonymous'
+    }
+  ]
+})
+
 const mcLink = "mc.calibur.tv"
 const snackbar = ref(false)
 
