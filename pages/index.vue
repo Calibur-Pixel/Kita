@@ -63,9 +63,9 @@ function updateClipboard() {
             <p class="d-flex ga-1 align-center">
               <VIcon icon="mdi-minecraft" /><b class="mr-2">可游玩版本</b>1.16 - 最新
             </p>
-            <p class="d-flex ga-1 align-center">
+            <!-- <p class="d-flex ga-1 align-center">
               <VIcon icon="mdi-lightbulb" /><b class="mr-2">推荐的版本</b>1.20.2
-            </p>
+            </p> -->
           </div>
         </div>
         <div class="d-flex flex-column align-start align-sm-end">

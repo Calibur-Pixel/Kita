@@ -16,7 +16,7 @@ const drawer = ref();
     <VList>
       <VListItem prepend-icon="mdi-home" title="首页" to="/" color="primary"></VListItem>
       <VListItem prepend-icon="mdi-palette" title="颜色" to="color" color="primary"></VListItem>
-      <VListItem prepend-icon="mdi-hand-coin" title="捐赠" to="donation" color="primary"></VListItem>
+      <!-- <VListItem prepend-icon="mdi-hand-coin" title="捐赠" to="donation" color="primary"></VListItem> -->
     </VList>
     <VDivider />
     <VList>
