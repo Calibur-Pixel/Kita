@@ -58,10 +58,10 @@ useHead({
       <h2 class="text-h5 font-weight-bold text-primary float-in-right">后缀 (头衔) 十六进制颜色代码格式</h2>
       <p class="my-4 float-in-right">为后缀插件专用的十六进制颜色代码格式。不过当然，后缀也能用最上面的通用颜色代码。以下列出为常用颜色代码，当然也可以使用自己的十六进制颜色~</p>
       <VRow class="mb-4 float-in-left">
-        <ColorBlock bg="#fb7299" text="white" value="&amp;(#fb7299)" />
-        <ColorBlock bg="#1ebafc" text="white" value="&amp;(#1ebafc)" />
-        <ColorBlock bg="#ff95a7" text="black" value="&amp;(#ff95a7)" />
-        <ColorBlock bg="#bfd7fd" text="black" value="&amp;(#bfd7fd)" />
+        <ColorBlock bg="#fb7299" text="white" value="#fb7299" />
+        <ColorBlock bg="#1ebafc" text="white" value="#1ebafc" />
+        <ColorBlock bg="#ff95a7" text="black" value="#ff95a7" />
+        <ColorBlock bg="#bfd7fd" text="black" value="#bfd7fd" />
       </VRow>
     </div>
   </VContainer>
