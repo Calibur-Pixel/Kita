@@ -3,12 +3,14 @@ export default defineNuxtConfig({
   devtools: {
     enabled: false
   },
+
   modules: [
     '@nuxt/image',
     '@nuxtjs/stylelint-module',
     '@vueuse/nuxt',
     'vuetify-nuxt-module',
   ],
+
   vuetify: {
     moduleOptions: {
       ssrClientHints: {
@@ -23,8 +25,11 @@ export default defineNuxtConfig({
     },
     vuetifyOptions: './vuetify.config.ts'
   },
+
   stylelint: {
     lintOnStart: false,
     chokidar: true
-  }
+  },
+
+  compatibilityDate: '2025-01-27'
 })
