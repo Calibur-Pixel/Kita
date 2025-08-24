@@ -18,8 +18,10 @@ useHead({
 </template>
 
 <style lang="scss">
-$ease-out-smooth: cubic-bezier(0.1, 0.9, 0.2, 1);
-$ease-in-out-smooth: cubic-bezier(0.75, 0, 0, 1);
+:root {
+  --ease-out-smooth: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --ease-in-out-smooth: cubic-bezier(0.75, 0, 0, 1);
+}
 
 *,
 *::before,
@@ -37,19 +39,19 @@ $ease-in-out-smooth: cubic-bezier(0.75, 0, 0, 1);
 }
 
 .float-in-up {
-  animation: float-in-up $ease-out-smooth 600ms;
+  animation: float-in-up var(--ease-out-smooth) 600ms;
 }
 
 .float-in-down {
-  animation: float-in-down $ease-out-smooth 600ms;
+  animation: float-in-down var(--ease-out-smooth) 600ms;
 }
 
 .float-in-left {
-  animation: float-in-left $ease-out-smooth 600ms;
+  animation: float-in-left var(--ease-out-smooth) 600ms;
 }
 
 .float-in-right {
-  animation: float-in-right $ease-out-smooth 600ms;
+  animation: float-in-right var(--ease-out-smooth) 600ms;
 }
 
 @keyframes float-in-up {
