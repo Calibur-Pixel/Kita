@@ -4,8 +4,8 @@ useHead({
     return titleChunk ? `${titleChunk} - Calibur Pixel` : 'Calibur Pixel'
   },
   meta: [
-    { name: "referrer", content: "no-referrer" }
-  ]
+    { name: 'referrer', content: 'no-referrer' },
+  ],
 })
 </script>
 
@@ -34,7 +34,7 @@ useHead({
   transition: 200ms;
 
   &:hover {
-    color: rgba(var(--v-theme-primary), 0.5);
+    color: rgb(var(--v-theme-primary), 0.5);
   }
 }
 

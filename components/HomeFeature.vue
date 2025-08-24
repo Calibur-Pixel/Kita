@@ -7,10 +7,12 @@ defineProps({
 
 <template>
   <div class="d-flex flex-column feature-card justify-center align-center pa-4 float-in-down">
-    <VIcon size="x-large" color="primary" :icon=icon />
-    <h4 class="text-primary mt-2">{{ title }}</h4>
+    <VIcon size="x-large" color="primary" :icon="icon" />
+    <h4 class="text-primary mt-2">
+      {{ title }}
+    </h4>
     <p class="mt-1">
-      <slot></slot>
+      <slot />
     </p>
   </div>
 </template>

@@ -1,14 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: {
-    enabled: false
-  },
-
   modules: [
     '@nuxt/image',
     '@nuxtjs/stylelint-module',
     '@vueuse/nuxt',
     'vuetify-nuxt-module',
+    '@nuxt/eslint',
   ],
 
   vuetify: {
@@ -19,17 +16,16 @@ export default defineNuxtConfig({
           cookieName: 'color-scheme',
           darkThemeName: 'dark',
           lightThemeName: 'light',
-          useBrowserThemeOnly: true
-        }
-      }
+          useBrowserThemeOnly: true,
+        },
+      },
     },
-    vuetifyOptions: './vuetify.config.ts'
+    vuetifyOptions: './vuetify.config.ts',
   },
 
   stylelint: {
     lintOnStart: false,
-    chokidar: true
   },
 
-  compatibilityDate: '2025-01-27'
+  compatibilityDate: '2025-01-27',
 })
