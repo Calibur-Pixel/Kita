@@ -26,6 +26,9 @@
         <VBtn variant="plain" size="small" target="_blank" href="https://www.yingluo.world/">
           璎珞
         </VBtn>
+        <VBtn variant="plain" size="small" target="_blank" href="https://www.miaomc.cn/">
+          MIAOMC
+        </VBtn>
       </div>
     </div>
   </VFooter>
