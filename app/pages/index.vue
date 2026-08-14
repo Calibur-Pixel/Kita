@@ -74,7 +74,7 @@ function updateClipboard() {
           <h4 class="text-h4 mb-4">
             加入服务器
           </h4>
-          <div class="d-flex ga-4 flex-column">
+          <div class="d-flex flex-column">
             <p class="d-flex ga-1 align-center">
               <VIcon icon="mdi-qqchat" /><b class="mr-2">QQ群</b>222611224
             </p>

@@ -2,7 +2,7 @@
   "name": "kita",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b",
+  "packageManager": "pnpm@10.34.5+sha512.a4ee05f2f73658255bd6a89859c065a45c28a57daefae2c893a168ee2b73168c37b91e83e57ea67654ad03f03031746430e8bce38e362e042605fb8abc80192e",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -14,24 +14,25 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "@nuxt/eslint": "1.9.0",
-    "@nuxt/image": "^1.11.0",
-    "eslint": "^9.34.0",
-    "nuxt": "3.18.1",
-    "vue": "^3.5.19",
-    "vue-router": "^4.5.1"
+    "@nuxt/eslint": "1.17.0",
+    "@nuxt/image": "^2.1.0",
+    "eslint": "^10.8.1",
+    "nuxt": "4.5.2",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
+    "@antfu/eslint-config": "^9.3.0",
     "@nuxtjs/stylelint-module": "^5.2.1",
-    "@vueuse/core": "^13.7.0",
-    "@vueuse/nuxt": "^13.7.0",
-    "sass": "1.77.6",
-    "stylelint": "^16.23.1",
-    "stylelint-config-clean-order": "^7.0.0",
-    "stylelint-config-standard-scss": "^15.0.1",
-    "stylelint-config-standard-vue": "^1.0.0",
-    "typescript": "^5.9.2",
-    "vuetify-nuxt-module": "^0.18.7"
+    "@vueuse/core": "^14.4.0",
+    "@vueuse/nuxt": "^14.4.0",
+    "sass": "1.102.0",
+    "stylelint": "^17.14.1",
+    "stylelint-config-clean-order": "^10.0.0",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-config-standard-vue": "^2.0.0",
+    "typescript": "^7.0.2",
+    "vuetify": "^4.1.9",
+    "vuetify-nuxt-module": "1.0.0-rc.4"
   }
 }

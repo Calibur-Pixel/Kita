@@ -13,7 +13,9 @@ export default defineNuxtConfig({
       ssrClientHints: {
         prefersColorScheme: true,
         prefersColorSchemeOptions: {
-          cookieName: 'color-scheme',
+          cookie: {
+            name: 'color-scheme',
+          },
           darkThemeName: 'dark',
           lightThemeName: 'light',
           useBrowserThemeOnly: true,
